@@ -16,6 +16,6 @@ type HistoricBaseline struct {
 	Operator        string      `json:"operator"`
 	LastUpdated     int64       `json:"lastUpdated,omitempty"`
 	Seasonality     string      `json:"seasonality"`
-	Baseline        [][]float32 `json:"baseline"`
+	Baseline        [][]float64 `json:"baseline"`
 	DeviationFactor float64     `json:"deviationFactor,omitempty"`
 }

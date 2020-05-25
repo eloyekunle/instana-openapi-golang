@@ -13,6 +13,6 @@ package openapi
 // HistoricBaselineAllOf struct for HistoricBaselineAllOf
 type HistoricBaselineAllOf struct {
 	Seasonality     string      `json:"seasonality,omitempty"`
-	Baseline        [][]float32 `json:"baseline,omitempty"`
+	Baseline        [][]float64 `json:"baseline,omitempty"`
 	DeviationFactor float64     `json:"deviationFactor,omitempty"`
 }
